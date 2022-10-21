@@ -1,0 +1,33 @@
+<Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+    <Script file="Libs\LibStub\LibStub.lua"/>
+    <Include file="Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml"/>
+    <Include file="Libs\AceAddon-3.0\AceAddon-3.0.xml"/>
+    <Include file="Libs\AceEvent-3.0\AceEvent-3.0.xml"/>
+    <Include file="Libs\AceConsole-3.0\AceConsole-3.0.xml"/>
+    <Include file="Libs\AceComm-3.0\AceComm-3.0.xml"/>
+    <Include file="Libs\AceLocale-3.0\AceLocale-3.0.xml"/>
+    <Include file="Libs\AceGUI-3.0\AceGUI-3.0.xml"/>
+    <Include file="Libs\AceConfig-3.0\AceConfig-3.0.xml"/>
+    <Include file="Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua"/>
+    <Include file="Libs\LibDBIcon-1.0\lib.xml"/>
+  <Button name="GatherMate2_Toggle_Nodes" parent="WorldMapFrame" inherits="UIPanelButtonTemplate" text="Toggle Nodes">
+	<Size>
+		<AbsDimension x="120" y="20"/>
+	</Size>
+	<Anchors>
+		<Anchor point="RIGHT" relativePoint="LEFT" relativeTo="WorldMapFrameCloseButton">
+			<Offset>
+				<AbsDimension x="0" y="0"/>
+			</Offset>
+		</Anchor>
+	</Anchors>
+	<Scripts>
+		<OnLoad>
+			self:SetFrameLevel(10);
+		</OnLoad>
+		<OnClick>
+			NodeToggle();
+		</OnClick>
+	</Scripts>
+  </Button>
+</Ui>

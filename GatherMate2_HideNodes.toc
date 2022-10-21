@@ -1,0 +1,12 @@
+# This file is used to show unsupported game client message.
+# Supported client flavors load their own TOC file and unsupported ones fall back to this one.
+# Check expansion specific TOC files for the correct data.
+## Interface: 00000
+## Title: Questie|cFFFF0000 game client not supported|r
+## Notes: Questie only supports Classic TBC and Classic Era/SoM.
+## Title: |cff00c0ffGatherMate2 Hide Nodes|r|cFFFF0000 game client not supported|r
+## Notes: |cff00c0ffGatherMate2 Hide Nodes|r only supports Classic, TBC and WOTLKC.
+## Author: Aergernis
+## Dependencies: GatherMate2
+
+UnsupportedVersionError.lua

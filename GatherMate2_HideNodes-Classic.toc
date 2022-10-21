@@ -1,0 +1,11 @@
+## Interface: 11403
+## Title: |cff00c0ffGatherMate2 Hide Nodes|r
+## Notes-deDE: GatherMate2 Hide Nodes: Möglichkeit zum ausblenden der Knoten auf der Weltkarte.
+## Notes-enUS: GatherMate2 Hide Nodes: Adds button to hide GatherMate2 nodes on Worldmap.
+## Author: Aergernis
+## Version: 30400 1r3
+## Dependencies: GatherMate2
+
+embeds.xml
+Locales\Locales.xml
+GatherMate2_HideNodes.lua
