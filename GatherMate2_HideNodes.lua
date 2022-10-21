@@ -15,7 +15,7 @@ function Button()
 			GatherMate2_Toggle_Nodes:SetPoint("RIGHT", "WorldMapFrameCloseButton", "LEFT", "0", "0")
 		end
 	end
-	if IsAddOnLoaded("Questie") then
+	if IsAddOnLoaded("ElvUI") then
 		local E, _, V, P, G = unpack(ElvUI)
 		local S = E:GetModule('Skins')
 		
