@@ -3,7 +3,7 @@
 ## Notes-deDE: GatherMate2 Hide Nodes: Möglichkeit zum ausblenden der Knoten auf der Weltkarte.
 ## Notes-enUS: GatherMate2 Hide Nodes: Adds button to hide GatherMate2 nodes on Worldmap.
 ## Author: Aergernis
-## Version: 30400 1r32
+## Version: 30400 1r33
 ## Dependencies: GatherMate2
 
 embeds.xml
