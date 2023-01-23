@@ -1,4 +1,4 @@
-## Interface: 30400
+## Interface: 30401
 ## Title: |cff00c0ffGatherMate2 Hide Nodes|r
 ## Notes-deDE: GatherMate2 Hide Nodes: Möglichkeit zum ausblenden der Knoten auf der Weltkarte.
 ## Notes-enUS: GatherMate2 Hide Nodes: Adds button to hide GatherMate2 nodes on Worldmap.
